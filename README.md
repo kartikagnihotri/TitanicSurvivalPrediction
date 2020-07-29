@@ -63,4 +63,4 @@ Our model has an accuracy score of 79.88% when tested against our 20% test set. 
 
 To give us a better understanding of the real performance of our model, we can use a technique called cross validation to train and test our model on different splits of our data, and then average the accuracy scores.
 We’ll use model_selection.cross_val_score() to perform cross-validation on our data, before calculating the mean of the
-scores produced
+scores produced.After cross-validation the accuracy is 79.34%.
