@@ -68,7 +68,7 @@ predictions=lr.predict(test_X)
 from sklearn.metrics import accuracy_score
 print(accuracy_score(test_Y,predictions))
 
-#Using Cross-Validation to check error metrics we are getting from your model are accurate.
+#Using Cross-Validation to check error metrics we are getting from our model are accurate.
 from sklearn.model_selection import cross_val_score
 
 lr = LogisticRegression()
